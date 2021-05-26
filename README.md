@@ -9,7 +9,7 @@ A personal tool I use for cleaning C++ debug logs and executables
 3. Copy the file to `~/bin` folder. Make one if not made previously
 4. Add `~/bin` to path. Steps below.
     1. Open your bashrc file. `sudo nano ~/.bashrc`
-    2. Copy the below code to the file.
+    2. Insert the below code at the end of
         ```export PATH=$PATH:~/bin```
     3. Save the bashrc file.
 

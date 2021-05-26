@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+for file in $(ls -d $PWD/*);
+do
+    if [ -x $file ]
+    then
+        if file $file | grep -q "ELF"
+        then
+            echo "DELETING: "$file
+            rm $file
+        fi
+    fi
+done;
